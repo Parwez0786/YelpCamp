@@ -150,6 +150,6 @@ function isLoggedIn(req, res, next) {
     res.redirect('/login');
 }
 
-app.listen(3000, function() {
+app.listen(3011, function() {
     console.log("Server started!");
 });
